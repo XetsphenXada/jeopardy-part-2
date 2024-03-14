@@ -1,0 +1,113 @@
+/* --Multi-Page Classes-- */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0 0 0 0;
+    border: 1px solid black;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inputerAnswer {
+        display: grid;
+        grid-template-columns: 1fr;
+}
+
+.main {
+    display: grid;
+    /*grid-template-areas:
+        "category1  category2   category3   category4   category5   category6"
+        "oneOne     oneTwo      oneThree    oneFour     oneFive     oneSix"
+        "twoOne     twoTwo      twoThree    twoFour     twoFive     twoSix"
+        "threeOne   threeTwo    threeThree  threeFour   threeFive   threeSix"
+        "fourOne    fourTwo     fourThree   fourFour    fourFive    fourSix"
+        "fiveOne    fiveTwo     fiveThree   fiveFour    fiveFive    fiveSix";*/
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gameBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nxtRnd {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.categoryBlock {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.block {
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* --Landing Page-- */
+.logoJeopardy {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.btnPlayBet {
+    display: flex;
+    justify-content: center;
+}
+
+/* --Final Round-- */
+.mainFinal {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 25px;
+}
+
+.finalCategory {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.finalBlock {
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+}
+
+.playerInputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+}
