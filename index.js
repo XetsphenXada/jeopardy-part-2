@@ -8,4 +8,8 @@ document.getElementById("btnFROneOne").addEventListener("click", () => {
     document.getElementById("btnFROneFour").disabled = true;
     document.getElementById("btnFROneFive").disabled = true;
     document.getElementById("btnFROneSix").disabled = true;
+
+    let disFRTurn = document.getElementById("disFRTurn");
+    disFRTurn.textContent = "Player 1 Turn"
 })
+

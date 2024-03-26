@@ -12,7 +12,7 @@
     </header>
 
     <header class="header">
-        <h2>PLAYER TURN</h2>
+        <h2 id="disFRTurn">PLAYER 1 TURN</h2>
     </header>
 
     <main class="main">
@@ -34,95 +34,95 @@
         <div class="categoryBlock">
             <div class="category6">CATEGORY</div>
         </div>
-        <div class="block">
-            <button id="btnFROneOne">100</button>
+        <div id="oneOne" class="block">
+            <button id="btnOneOne" class="btnCategory">100</button>
+        </div>
+        <div id="oneTwo" class="block">
+            <button id="btnOneTwo" class="btnCategory">100</button>
         </div>
         <div class="block">
-            <button id="btnFROneTwo">100</button>
+            <button id="btnOneThree" class="btnCategory">100</button>
         </div>
         <div class="block">
-            <button id="btnFROneThree">100</button>
+            <button id="btnOneFour" class="btnCategory">100</button>
         </div>
         <div class="block">
-            <button id="btnFROneFour">100</button>
+            <button id="btnOneFive" class="btnCategory">100</button>
         </div>
         <div class="block">
-            <button id="btnFROneFive">100</button>
+            <button id="btnOneSix" class="btnCategory">100</button>
         </div>
         <div class="block">
-            <button id="btnFROneSix">100</button>
+            <button id="btnTwoOne" class="btnCategory">200</button>
         </div>
         <div class="block">
-            <button id="btnFRTwoOne">200</button>
+            <button id="btnTwoTwo" class="btnCategory">200</button>
         </div>
         <div class="block">
-            <button id="btnFRTwoTwo">200</button>
+            <button id="btnTwoThree" class="btnCategory">200</button>
         </div>
         <div class="block">
-            <button id="btnFRRwoThree">200</button>
+            <button id="btnTwoFour" class="btnCategory">200</button>
         </div>
         <div class="block">
-            <button id="btnFRTwoFour">200</button>
+            <button id="btnTwoFive" class="btnCategory">200</button>
         </div>
         <div class="block">
-            <button id="btnFRTwoFive">200</button>
+            <button id="btnTwoSix" class="btnCategory">200</button>
         </div>
         <div class="block">
-            <button id="btnFRTwoSix">200</button>
+            <button id="btnThreeOne" class="btnCategory">300</button>
         </div>
         <div class="block">
-            <button id="btnFRThreeOne">300</button>
+            <button id="btnThreeTwo" class="btnCategory">300</button>
         </div>
         <div class="block">
-            <button id="btnFRThreeTwo">300</button>
+            <button id="btnThreeThree" class="btnCategory">300</button>
         </div>
         <div class="block">
-            <button id="btFRThreeThree">300</button>
+            <button id="btnThreeFour" class="btnCategory">300</button>
         </div>
         <div class="block">
-            <button id="btnFRThreeFour">300</button>
+            <button id="btnThreeFive" class="btnCategory">300</button>
         </div>
         <div class="block">
-            <button id="btnFRThreeFive">300</button>
+            <button id="btnThreeSix" class="btnCategory">300</button>
         </div>
         <div class="block">
-            <button id="btnFRThreeSix">300</button>
+            <button id="btnFourOne" class="btnCategory">400</button>
         </div>
         <div class="block">
-            <button id="btnFRFourOne">400</button>
+            <button id="btnFourTwo" class="btnCategory">400</button>
         </div>
         <div class="block">
-            <button id="btnFRFourTwo">400</button>
+            <button id="btnFourThree" class="btnCategory">400</button>
         </div>
         <div class="block">
-            <button id="btnFRFourThree">400</button>
+            <button id="btnFourFour" class="btnCategory">400</button>
         </div>
         <div class="block">
-            <button id="btnFRFourFour">400</button>
+            <button id="btnFourFive" class="btnCategory">400</button>
         </div>
         <div class="block">
-            <button id="btnFRFourFive">400</button>
+            <button id="btnFourSix" class="btnCategory">400</button>
         </div>
         <div class="block">
-            <button id="btnFRFourSix">400</button>
+            <button id="btnFiveOne" class="btnCategory">500</button>
         </div>
         <div class="block">
-            <button id="btnFRFiveOne">500</button>
+            <button id="btnFiveTwo" class="btnCategory">500</button>
         </div>
         <div class="block">
-            <button id="btnFRFiveTwo">500</button>
+            <button id="btnFiveThree" class="btnCategory">500</button>
         </div>
         <div class="block">
-            <button id="btnFRFiveThree">500</button>
+            <button id="btnFiveFour" class="btnCategory">500</button>
         </div>
         <div class="block">
-            <button id="btnFRFiveFour">500</button>
+            <button id="btnFiveFive" class="btnCategory">500</button>
         </div>
         <div class="block">
-            <button id="btnFRFiveFive">500</button>
-        </div>
-        <div class="block">
-            <button id="btnFRFiveSix">500</button>
+            <button id="btnFiveSix" class="btnCategory">500</button>
     </div>
     </main>
     
@@ -133,12 +133,12 @@
     </main>
     
     <div class="gameBtn">
-        <div id="guess" class="button">
-            <button><h3>GUESS</h3></button>
+        <div class="button">
+            <button id="guess" disabled="true"><h3>GUESS</h3></button>
         </div>
         
-        <div  id="pass" class="button">
-            <button><h3>PASS</h3></button>
+        <div class="button">
+            <button id="pass" disabled="true"><h3>PASS</h3></button>
         </div>
     </div>
 
@@ -149,7 +149,7 @@
 
     <div class="nxtRnd">
         <a href="secondRound.html">
-            <button><h3>Next Round</h3></button>
+            <button disabled="true"><h3>Next Round</h3></button>
         </a>
     </div>
     
@@ -158,6 +158,6 @@
     </footer>
 
     <!-- script -->
-    <script src="index.js"></script>
+    <script src="backend.js"></script>
 </body>
 </html>
