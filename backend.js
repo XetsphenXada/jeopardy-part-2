@@ -1,6 +1,11 @@
-let disFRTurn = document.getElementById("disFRTurn");
-let btnActive;
-let scoreAdd;
+// import { nature, guessedCatOne, getRandomInt, randInt } from "./index.js"
+
+// let disFRTurn = document.getElementById("disFRTurn");
+// let btnActive;
+// let scoreAdd;
+
+// const nature = placeholderQuestions.find(({ item }) => item.category === "Nature");
+// console.log(placeholderQuestions);
 
 function buttonClicked() {
     document.getElementById("btnOneOne").disabled = true;
@@ -117,15 +122,16 @@ function nullContent() {
 };
 
 // Category 1-1
-document.getElementById("btnOneOne").addEventListener("click", () => {
-    scoreAdd = 100;
-    // document.getElementsByClassName("btnCategory").disabled = true;
-    buttonClicked();
-    document.getElementById("guess").disabled = false;
-    document.getElementById("pass").disabled = false;
-    document.getElementById("btnOneOne").hidden = true;
-    document.getElementById("oneOne").textContent = "Test";
-});
+// document.getElementById("btnOneOne").addEventListener("click", () => {
+//     // let scoreAdd = 100;
+//     let displayQuestion = true;
+//     // document.getElementsByClassName("btnCategory").disabled = true;
+//     buttonClicked();
+//     document.getElementById("guess").disabled = false;
+//     document.getElementById("pass").disabled = false;
+//     document.getElementById("btnOneOne").hidden = true;
+//     document.getElementById("oneOne").textContent = "test";
+// });
 
 // Category 2-1
 document.getElementById("btnOneTwo").addEventListener("click", () => {
